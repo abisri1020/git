@@ -1,0 +1,84 @@
+const scores = [
+  {
+    marks: 32,
+    name: "Yvette Merritt",
+  },
+  {
+    marks: 57,
+    name: "Lillian Ellis",
+  },
+  {
+    marks: 22,
+    name: "Mccall Carter",
+  },
+  {
+    marks: 21,
+    name: "Pate Collier",
+  },
+  {
+    marks: 91,
+    name: "Debra Beard",
+  },
+  {
+    marks: 75,
+    name: "Nettie Hancock",
+  },
+  {
+    marks: 20,
+    name: "Hatfield Hodge",
+  },
+];
+
+
+// Task 1
+// Print the name list - As an array
+// Expected Output
+// ["Yvette Merritt", "Lillian Ellis", "Mccall Carter", "Pate Collier" ,
+//  "Debra Beard", "Nettie Hancock",  "Hatfield Hodge"]
+
+
+
+// Task 2
+
+/ Task 3
+//  Find all the names who failed the exams (Array methods)
+// Expected Output
+//   ["Yvette Merritt",
+//   "Lillian Ellis",
+//   "Mccall Carter",
+//   "Pate Collier",
+//   "Hatfield Hodge"
+// ];
+
+
+// Task 4
+//  Find Average of all marks
+// Expected Output 
+
+
+// Task 5
+// Find the person who got the highest mark
+// Expected Output
+// "Debra Beard"
+
+// task1
+console.log(scores.map(names => names.name));
+// task 2
+console.log(scores.filter(names => names.marks >= 40));
+// task 3
+console.log(scores.filter(names => names.marks < 40).map(names => names.name));
+// task 4
+console.log(((scores.map(mark => mark.marks).reduce((value, sum) => sum + value, 0)) / scores.length).toFixed(2));
+// task 5
+console.log(scores.filter(n => n.marks === Math.max(...scores.map(names => names.marks))).map(n => n.name));
+console.log(scores.filter(n => n.marks === Math.max(...scores.map(names => names.marks))).map(n => n.name).join(""));
+
+
+Output:
+45.43
+
+MRF-> array functions
+map filter reduce
+map -> one by one performs operation
+a=[10,20,30,40,50];
+[20,40,60,80,100]

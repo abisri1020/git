@@ -1,0 +1,34 @@
+span {
+    color: red;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 125px; */
+}
+
+.p2 {
+    color: darkblue;
+    background: pink;
+}
+
+p {
+    color: darkgreen;
+    background: tan;
+    /* margin: 0px; */
+}
+
+p {
+    color: yellow;
+    background: blue;
+    /* margin: 0px; */
+}
+
+div {
+    color: seagreen;
+    background: tan;
+}
+
+.p1 {
+    color: pink;
+    background: purple;
+    /* margin: 0px; */
+}

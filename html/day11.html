@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day 11 task</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="/js/day5task.js"></script>
+</head>
+
+<body>
+    <h2>Form</h2>
+    <fieldset class="contact">
+        <h1 class="heading">Contact Us Form</h1>
+        <hr>
+        <form action="https://www.guvi.in/">
+            <label id="fn" name="name">Name *:</label><br/>
+            <input type="text" placeholder="first name" required/>
+            <input type="text" placeholder="last name" required/><br/><br/>
+            <label id="em" name="mail">Email *:</label><br/>
+            <input type="text" placeholder="mail address" required/><br/><br/>
+            <label id="msg" name="name">Type your messege here:</label><br/>
+            <textarea id="msgarea" name="message" rows="10" cols="50"></textarea><br/><br/>
+            <button>Submit</button>
+            <p>Fill the <b>*</b> required fields</p>
+        </form>
+    </fieldset>
+    <hr>
+    <div class="list">
+        <h2>List</h2>
+        <ul style="list-style-type: disc;">
+            <li>Programing Languages
+                <ul style="list-style-type: circle;">
+                    <li>JavaScript
+                        <ol style="list-style-type: lower-alpha;">
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>Vue.js</li>
+                        </ol>
+                    </li>
+                    <li>Python
+                        <ol style="list-style-type: lower-alpha;">
+                            <li>Django Framework</li>
+                            <li>Flask Framework</li>
+                        </ol>
+                    </li>
+                    <li>Java
+                        <ol style="list-style-type: lower-alpha;">
+                            <li>Spring</li>
+                            <li>Maven</li>
+                            <li>Hibernate</li>
+                        </ol>
+                    </li>
+                </ul>
+            </li>
+            <li>Database
+                <ul style="list-style-type: circle;">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Cansandra</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <hr>
+    <h2><a href="https://www.google.com/" target="_blank">Google</a></h2>
+    <hr>
+    <h2>Radio button</h2>
+    <form action="">
+        <label id="radio" name="radiobutton"><b>Employee type:</b> </label><br>
+        <input type="radio" id="sal" name="Emp" value="Salaried ">
+        <label for="sal">Salaried</label><br>
+        <input type="radio" id="ob" name="Emp" value="Ownbusiness ">
+        <label for="">Own business</label>
+    </form>
+    <hr>
+    <h2>Table</h2>
+    <h4 class="hc">Health Chart</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th rowspan="2">State of Health</th>
+                <th colspan="2">Fasting Value</th>
+                <th>After Eating</th>
+            </tr>
+            <tr>
+                <th>Minimum</th>
+                <th>Maximum</th>
+                <th>2 hours after eating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Healthy</td>
+                <td>70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td>Pre-Diabetes</td>
+                <td>101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td>More than 126</td>
+                <td>N/A</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+</body>
+
+</html>
+<!-- css -->
+<!-- .contact {
+    width: 50%;
+    background-color: beige;
+}
+
+.heading {
+    text-align: center;
+    background-color: coral;
+}
+
+body {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} -->

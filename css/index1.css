@@ -1,0 +1,75 @@
+        /* ol {
+        color: pink;
+    } */
+        /* p {
+        color: green; */
+        /* font-size: 20px; */
+        /* border: 5px solid red;
+    background: yellow; */
+        /* font-style: italic; */
+        /* font-weight: bolder; */
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+        /* } */
+        /* .highlight {
+    color: red;
+    font-weight: bolder;
+}
+
+.t {
+    color: pink;
+    background: beige;
+    display: block;
+}
+
+.f {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: greenyellow;
+    color: rgb(250 499 2);
+}
+
+.image {
+    /* height: 300px; */
+        /* width: 400px; */
+        /* object-fit: contain; */
+        /* align-content: center; */
+        /* } */
+        /* table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        } */
+        /* .cool {
+            color: turquoise;
+        }
+        
+        .div {
+            color: tomato;
+            
+        }
+        
+        .main {
+            color: chartreuse;
+            font-style: italic;
+            text-align: center;
+        }
+        /* .div .p1 h1 {
+            background-color: grey;
+        } */
+        /* .nice+p+p {
+            color: grey
+        
+        }  */
+        
+        .count {
+            position: absolute;
+            top: 40px;
+            left: 150px;
+            padding: 10px 10px;
+            border-radius: 100%;
+            background-color: red;
+            color: white;
+            object-fit: cover;
+        }

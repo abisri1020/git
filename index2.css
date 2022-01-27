@@ -1,0 +1,82 @@
+body {
+    margin: 0px;
+}
+
+.taskbar {
+    margin: 0px;
+    display: flex;
+    background-color: grey;
+    font-variant: small-caps;
+    font-weight: bold;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 1.3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: fixed;
+    width: 100vw;
+    padding: 5px;
+    z-index: 10rem;
+}
+
+.color {
+    background: linear-gradient(40deg, rgb(226, 205, 216), pink 30%, skyblue);
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    padding: 2rem
+}
+
+.name,
+.dis {
+    text-align: center;
+    margin: 0px;
+    font-variant: small-caps;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(43, 39, 39);
+}
+
+.name {
+    font-size: 2rem;
+}
+
+.home,
+.about,
+.achive {
+    color: white;
+    text-decoration: none;
+}
+
+.home:hover,
+.about:hover,
+.achive:hover {
+    color: pink;
+}
+
+.home:active,
+.about:active,
+.achive:active {
+    color: cyan;
+    text-decoration: underline;
+}
+
+.text {
+    width: 50vw;
+}
+
+.quote1 {
+    text-align: center;
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;
+}
